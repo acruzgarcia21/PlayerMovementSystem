@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    // Old Input System
+    // Can be good to start out with and then refactor
     [SerializeField] private float walkingSpeed = 8f;
     [SerializeField] private float runSpeed = 12f;
     private void Update()
